@@ -1,7 +1,6 @@
 nav.nav-list {
   .nav-item {
-    font-family: 'Quicksand';
-    font-style: normal;
+      font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -9,6 +8,19 @@ nav.nav-list {
 
     &.active {
       color: #272042;
+      font-weight: 600;
+      &::before {
+        content: '';
+        position: absolute;
+        width: 57px;
+        height: 4px;
+        margin-top: 15px;
+        margin-left: -3px;
+        z-index: -1;
+
+        background: #fbe0dc;
+        border-radius: 100px;
+      }
     }
   }
 }

@@ -1,10 +1,10 @@
+import Hero from 'components/Hero';
 import React from 'react';
-import Header from 'components/Header';
 
-export default function Home() {
+export default function Home(props) {
   return (
-    <div className="App ">
-      <Header className="mx-24 my-12 flex justify-between" />
+    <div className="Homepage">
+      <Hero />
     </div>
   );
 }
