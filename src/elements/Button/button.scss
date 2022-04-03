@@ -1,0 +1,29 @@
+/* brand icon */
+.brand-icon-wrapper {
+  img {
+    width: 28px;
+    height: 28px;
+  }
+  span {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #272042;
+  }
+}
+
+/* Button Nav */
+.nav-button {
+  padding: 12px 25px;
+  background-color: #fbe0dc;
+  color: #272042;
+  border-radius: 25px 25px 15px 15px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
