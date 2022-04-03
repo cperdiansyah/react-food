@@ -1,0 +1,14 @@
+nav.nav-list {
+  .nav-item {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8b8ba5;
+
+    &.active {
+      color: #272042;
+    }
+  }
+}

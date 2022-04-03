@@ -3,6 +3,7 @@ import Brand from './Brand';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import Button from 'elements/Button';
+import './Header.scss';
 
 export default function Header(props) {
   const navLinks = ['Home', 'Beverages', 'Chef', 'Ingredient', 'Stories'];
@@ -18,7 +19,7 @@ export default function Header(props) {
               <NavLink
                 key={index}
                 to={link === 'Home' ? '/' : link.toLowerCase()}
-                className={'nav-item '}
+                className="nav-item ml-5"
               >
                 {link}
               </NavLink>
